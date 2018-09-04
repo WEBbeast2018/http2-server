@@ -1,7 +1,7 @@
 {
-  "name": "knesset-data-backend",
+  "name": "http2-server",
   "version": "1.0.0",
-  "description": "open knesset backend",
+  "description": "http2 server",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -9,16 +9,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "yuvalbl",
-  "license": "MIT",
-  "dependencies": {
-    "koa": "^2.5.2",
-    "koa-66": "^1.0.1",
-    "koa-compress": "^3.0.0",
-    "koa-logger": "^3.2.0",
-    "koa-route": "^3.2.0",
-    "koa-send": "^5.0.0",
-    "koa-sse": "^0.1.0",
-    "koa-websocket": "^5.0.1",
-    "object-sizeof": "^1.2.0"
-  }
+  "license": "MIT"
 }
